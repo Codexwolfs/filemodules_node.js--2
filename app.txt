@@ -1,0 +1,24 @@
+
+/*first tut...
+console.log('abc');
+*/
+
+
+
+//second tut...
+
+/*const message = (name) => {
+    console.log(`${name} is good`)
+}
+message('abc')*/
+
+
+
+/* global timeout code in node js ............
+global.setTimeout(() => {
+   console.log('timeout  with global '
+   ) 
+},3000)
+setTimeout(() => {
+    console.log('timeout without global ')
+},12000)*/
