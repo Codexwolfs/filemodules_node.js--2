@@ -1,15 +1,15 @@
 const fs =require('fs')
 const readStream = fs.createReadStream('bigdata.txt',{encoding:'utf-8'});
 
-readStream.on('data',chunk=>{
-    console.log('#### new chunk ####');
-    // // for all content ...
-    console.log(chunk.toString())
+// readStream.on('data',chunk=>{
+//     console.log('#### new chunk ####');
+//     // // for all content ...
+//     console.log(chunk.toString())
     
-})
+// })
 
 
-// add data in some another file using this .........
+// // add data in some another file using this .........
 // const writeStream=fs.createWriteStream('abc.txt');
 //    readStream.on('data',chunk=>{
 //    console.log('\n ### newdata #######\n');
