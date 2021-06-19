@@ -4,10 +4,13 @@ const port = 3000;
 const server = http.createServer((req,res)=>{
    
 
-  console.log('request url',req.url)
-  console.log('request',req.method)
+  // console.log('request url',req.url)
+  // console.log('request',req.method)
+  //request object in node js 
 
-  
+res.setHeader('contect-type','text/plan');
+res.write('welcome to rajat site ');
+res.end(); 
   
 
 });
